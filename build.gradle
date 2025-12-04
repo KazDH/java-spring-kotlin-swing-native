@@ -65,6 +65,10 @@ tasks.named('jar') {
     }
 }
 
+tasks.named('bootJar') {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
 repositories {
     mavenCentral()
     google()
@@ -84,6 +88,8 @@ dependencies {
     implementation 'org.jetbrains.compose.material3:material3-desktop:1.9.0'
     implementation 'org.jetbrains.compose.ui:ui-desktop:1.9.0'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.10.1'
+
+    compileOnly("org.graalvm.nativeimage:library-support:25.0.1")
 
     // Explicitly add Skiko runtime for Windows
     runtimeOnly "org.jetbrains.skiko:skiko-awt-runtime-windows-x64:0.9.22.2"

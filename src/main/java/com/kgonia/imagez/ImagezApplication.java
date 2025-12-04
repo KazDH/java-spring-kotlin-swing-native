@@ -37,13 +37,13 @@ public class ImagezApplication {
      */
     private static void setupJavaHomeForNativeImage() {
         String javaHome = System.getProperty("java.home");
-        String imagecode = System.getProperty("org.graalvm.nativeimage.imagecode");
+        boolean isNativeImage = org.graalvm.nativeimage.ImageInfo.inImageCode();
 
         // Check if we're running as a native image (imagecode will be non-null)
         // or if java.home is not set
-        boolean isNativeImage = imagecode != null || javaHome == null || javaHome.isEmpty();
+        boolean isJavaHomeToSet = isNativeImage && (javaHome == null || javaHome.isEmpty());
 
-        if (isNativeImage) {
+        if (isJavaHomeToSet) {
             // Get the directory containing the executable
             String currentDir = System.getProperty("user.dir");
 
@@ -68,10 +68,7 @@ public class ImagezApplication {
      * AWT expects DLLs in java.home\bin directory structure.
      */
     private static void copyDllsToBinDirectory() {
-        String javaHome = System.getProperty("java.home");
-        String imagecode = System.getProperty("org.graalvm.nativeimage.imagecode");
-
-        boolean isNativeImage = imagecode != null || javaHome == null || javaHome.isEmpty();
+        boolean isNativeImage = org.graalvm.nativeimage.ImageInfo.inImageCode();
 
         if (isNativeImage) {
             String currentDir = System.getProperty("user.dir");
