@@ -1,6 +1,8 @@
 package com.kgonia.imagez;
 
 import com.kgonia.imagez.ui.ComposeUILauncherKt;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.WebApplicationType;
@@ -12,6 +14,8 @@ import org.springframework.context.ConfigurableApplicationContext;
  */
 @SpringBootApplication
 public class ImagezApplication {
+
+    private static final Logger log = LoggerFactory.getLogger(ImagezApplication.class);
 
     public static void main(String[] args) {
         // CRITICAL: Configure java.home FIRST before any other code runs
@@ -25,7 +29,7 @@ public class ImagezApplication {
                 .headless(false)
                 .run(args);
 
-        System.out.println("Spring context initialized, launching Compose UI...");
+        log.info("Spring context initialized, launching Compose UI...");
 
         // Launch Kotlin Compose UI
         ComposeUILauncherKt.launchComposeUI(context);
@@ -56,10 +60,10 @@ public class ImagezApplication {
             System.setProperty("java.library.path", libraryPath);
             System.setProperty("sun.boot.library.path", binDir.getAbsolutePath());
 
-            System.out.println("Native image detected. Configured paths:");
-            System.out.println("  java.home: " + currentDir);
-            System.out.println("  java.library.path: " + libraryPath);
-            System.out.println("  sun.boot.library.path: " + System.getProperty("sun.boot.library.path"));
+            log.info("Native image detected. Configured paths:");
+            log.info("  java.home: {}", currentDir);
+            log.info("  java.library.path: {}", libraryPath);
+            log.info("  sun.boot.library.path: {}", System.getProperty("sun.boot.library.path"));
         }
     }
 
@@ -92,15 +96,15 @@ public class ImagezApplication {
                                     targetDll.toPath(),
                                     java.nio.file.StandardCopyOption.REPLACE_EXISTING
                                 );
-                                System.out.println("Copied " + dll.getName() + " to bin directory");
+                                log.info("Copied {} to bin directory", dll.getName());
                             } catch (java.io.IOException e) {
-                                System.err.println("Failed to copy " + dll.getName() + ": " + e.getMessage());
+                                log.error("Failed to copy {}: {}", dll.getName(), e.getMessage());
                             }
                         }
                     }
                 }
             } else {
-                System.err.println("Failed to create bin directory: " + binDir.getAbsolutePath());
+                log.error("Failed to create bin directory: {}", binDir.getAbsolutePath());
             }
         }
     }
