@@ -1,0 +1,4237 @@
+{
+  "reflection": [
+    {
+      "type": "boolean"
+    },
+    {
+      "type": "boolean[]"
+    },
+    {
+      "type": "ch.qos.logback.classic.BasicConfigurator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "ch.qos.logback.classic.LoggerContext"
+    },
+    {
+      "type": "ch.qos.logback.classic.spi.LogbackServiceProvider"
+    },
+    {
+      "type": "ch.qos.logback.classic.util.DefaultJoranConfigurator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.icons.FlatHelpButtonIcon",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.icons.FlatWindowCloseIcon",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.icons.FlatWindowIconifyIcon",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.icons.FlatWindowMaximizeIcon",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.icons.FlatWindowRestoreIcon",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.resources.Bundle"
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatButtonBorder",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatButtonUI",
+      "methods": [
+        {
+          "name": "createUI",
+          "parameterTypes": [
+            "javax.swing.JComponent"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatLabelUI",
+      "methods": [
+        {
+          "name": "createUI",
+          "parameterTypes": [
+            "javax.swing.JComponent"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatPanelUI",
+      "methods": [
+        {
+          "name": "createUI",
+          "parameterTypes": [
+            "javax.swing.JComponent"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatRootPaneUI",
+      "methods": [
+        {
+          "name": "createUI",
+          "parameterTypes": [
+            "javax.swing.JComponent"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatTitlePane"
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatTitlePane$1"
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatTitlePane$2"
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatTitlePane$4"
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatTitlePane$6"
+    },
+    {
+      "type": "com.formdev.flatlaf.ui.FlatWindowsNativeWindowBorder$WndProc",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "fireStateChangedLaterOnce",
+          "parameterTypes": []
+        },
+        {
+          "name": "isFullscreen",
+          "parameterTypes": []
+        },
+        {
+          "name": "onNcHitTest",
+          "parameterTypes": [
+            "int",
+            "int",
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.kgonia.imagez.ImagezApplication",
+      "fields": [
+        {
+          "name": "context"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "main",
+          "parameterTypes": [
+            "java.lang.String[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.sun.swing.internal.plaf.basic.resources.basic"
+    },
+    {
+      "type": "groovy.lang.MetaClass"
+    },
+    {
+      "type": "jakarta.annotation.PostConstruct"
+    },
+    {
+      "type": "jakarta.annotation.PreDestroy"
+    },
+    {
+      "type": "jakarta.annotation.Resource"
+    },
+    {
+      "type": "jakarta.ejb.EJB"
+    },
+    {
+      "type": "jakarta.inject.Inject"
+    },
+    {
+      "type": "jakarta.inject.Named"
+    },
+    {
+      "type": "jakarta.inject.Provider"
+    },
+    {
+      "type": "jakarta.inject.Qualifier"
+    },
+    {
+      "type": "jakarta.persistence.EntityManagerFactory"
+    },
+    {
+      "type": "jakarta.servlet.Servlet"
+    },
+    {
+      "type": "jakarta.validation.Validator"
+    },
+    {
+      "type": "java.awt.AWTEvent",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bdata"
+        },
+        {
+          "name": "consumed"
+        },
+        {
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.AlphaComposite",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "extraAlpha"
+        },
+        {
+          "name": "rule"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Color",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getRGB",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Component",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "appContext"
+        },
+        {
+          "name": "background"
+        },
+        {
+          "name": "cursor"
+        },
+        {
+          "name": "enabled"
+        },
+        {
+          "name": "focusable"
+        },
+        {
+          "name": "foreground"
+        },
+        {
+          "name": "graphicsConfig"
+        },
+        {
+          "name": "height"
+        },
+        {
+          "name": "parent"
+        },
+        {
+          "name": "peer"
+        },
+        {
+          "name": "visible"
+        },
+        {
+          "name": "width"
+        },
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getFont_NoClientCode",
+          "parameterTypes": []
+        },
+        {
+          "name": "getLocationOnScreen_NoTreeLock",
+          "parameterTypes": []
+        },
+        {
+          "name": "getToolkitImpl",
+          "parameterTypes": []
+        },
+        {
+          "name": "isEnabledImpl",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Container",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "layoutMgr"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Cursor",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "pData"
+        },
+        {
+          "name": "type"
+        }
+      ],
+      "methods": [
+        {
+          "name": "setPData",
+          "parameterTypes": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Dialog",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "title"
+        },
+        {
+          "name": "undecorated"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Dimension",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "height"
+        },
+        {
+          "name": "width"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Font",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "name"
+        },
+        {
+          "name": "pData"
+        },
+        {
+          "name": "size"
+        },
+        {
+          "name": "style"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getFont",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "getFontPeer",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.awt.FontMetrics",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "font"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getHeight",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Frame",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "undecorated"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Insets",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Point",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Rectangle",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.SequencedEvent",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.awt.AWTEvent"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Toolkit",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getDefaultToolkit",
+          "parameterTypes": []
+        },
+        {
+          "name": "getFontMetrics",
+          "parameterTypes": [
+            "java.awt.Font"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Window",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "autoRequestFocus"
+        },
+        {
+          "name": "locationByPlatform"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Window$Type",
+      "jniAccessible": true
+    },
+    {
+      "type": "java.awt.desktop.UserSessionEvent$Reason",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "CONSOLE"
+        },
+        {
+          "name": "LOCK"
+        },
+        {
+          "name": "REMOTE"
+        },
+        {
+          "name": "UNSPECIFIED"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.event.ComponentEvent",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.awt.Component",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.event.InputEvent",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "modifiers"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getButtonDownMasks",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.awt.event.KeyEvent",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "VK_CONTEXT_MENU"
+        },
+        {
+          "name": "VK_ENTER"
+        },
+        {
+          "name": "VK_F10"
+        },
+        {
+          "name": "VK_SPACE"
+        },
+        {
+          "name": "extendedKeyCode"
+        },
+        {
+          "name": "keyChar"
+        },
+        {
+          "name": "keyCode"
+        },
+        {
+          "name": "primaryLevelUnicode"
+        },
+        {
+          "name": "rawCode"
+        },
+        {
+          "name": "scancode"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.event.MouseEvent",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "button"
+        },
+        {
+          "name": "causedByTouchEvent"
+        },
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.awt.Component",
+            "int",
+            "long",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "int",
+            "boolean",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.event.MouseMotionListener[]"
+    },
+    {
+      "type": "java.awt.geom.AffineTransform",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "m00"
+        },
+        {
+          "name": "m01"
+        },
+        {
+          "name": "m02"
+        },
+        {
+          "name": "m10"
+        },
+        {
+          "name": "m11"
+        },
+        {
+          "name": "m12"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.GeneralPath",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "byte[]",
+            "int",
+            "float[]",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.Path2D",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "numTypes"
+        },
+        {
+          "name": "pointTypes"
+        },
+        {
+          "name": "windingRule"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.Path2D$Float",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "floatCoords"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.Point2D$Float",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.Rectangle2D$Float",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "height"
+        },
+        {
+          "name": "width"
+        },
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.BufferedImage",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "colorModel"
+        },
+        {
+          "name": "imageType"
+        },
+        {
+          "name": "raster"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getRGB",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "setRGB",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.ColorModel",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "colorSpace"
+        },
+        {
+          "name": "colorSpaceType"
+        },
+        {
+          "name": "isAlphaPremultiplied"
+        },
+        {
+          "name": "is_sRGB"
+        },
+        {
+          "name": "nBits"
+        },
+        {
+          "name": "numComponents"
+        },
+        {
+          "name": "supportsAlpha"
+        },
+        {
+          "name": "transparency"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getRGBdefault",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.DirectColorModel",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.IndexColorModel",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "allgrayopaque"
+        },
+        {
+          "name": "colorData"
+        },
+        {
+          "name": "lookupcache"
+        },
+        {
+          "name": "map_size"
+        },
+        {
+          "name": "rgb"
+        },
+        {
+          "name": "transparent_index"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.Raster",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "dataBuffer"
+        },
+        {
+          "name": "height"
+        },
+        {
+          "name": "minX"
+        },
+        {
+          "name": "minY"
+        },
+        {
+          "name": "numBands"
+        },
+        {
+          "name": "numDataElements"
+        },
+        {
+          "name": "sampleModel"
+        },
+        {
+          "name": "sampleModelTranslateX"
+        },
+        {
+          "name": "sampleModelTranslateY"
+        },
+        {
+          "name": "width"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.SampleModel",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "height"
+        },
+        {
+          "name": "width"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getPixels",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "java.awt.image.DataBuffer"
+          ]
+        },
+        {
+          "name": "setPixels",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "java.awt.image.DataBuffer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.SinglePixelPackedSampleModel",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bitMasks"
+        },
+        {
+          "name": "bitOffsets"
+        },
+        {
+          "name": "bitSizes"
+        },
+        {
+          "name": "maxBitSize"
+        }
+      ]
+    },
+    {
+      "type": "java.io.Closeable"
+    },
+    {
+      "type": "java.io.Console",
+      "methods": [
+        {
+          "name": "isTerminal",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.io.Serializable"
+    },
+    {
+      "type": "java.io.Serializable[]"
+    },
+    {
+      "type": "java.lang.Boolean",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getBoolean",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.CharSequence[]"
+    },
+    {
+      "type": "java.lang.Class"
+    },
+    {
+      "type": "java.lang.ClassLoader",
+      "fields": [
+        {
+          "name": "classLoaderValueMap"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Class[]"
+    },
+    {
+      "type": "java.lang.Comparable[]"
+    },
+    {
+      "type": "java.lang.Enum",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "name",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.FunctionalInterface"
+    },
+    {
+      "type": "java.lang.Object"
+    },
+    {
+      "type": "java.lang.Object[]"
+    },
+    {
+      "type": "java.lang.String",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "concat",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.String[]"
+    },
+    {
+      "type": "java.lang.System",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getProperty",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Thread",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "currentThread",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.annotation.Documented"
+    },
+    {
+      "type": "java.lang.annotation.Inherited"
+    },
+    {
+      "type": "java.lang.annotation.Repeatable"
+    },
+    {
+      "type": "java.lang.annotation.Retention"
+    },
+    {
+      "type": "java.lang.annotation.Target"
+    },
+    {
+      "type": "java.lang.constant.Constable[]"
+    },
+    {
+      "type": "java.lang.constant.ConstantDesc[]"
+    },
+    {
+      "type": "java.lang.reflect.ParameterizedType",
+      "methods": [
+        {
+          "name": "getActualTypeArguments",
+          "parameterTypes": []
+        },
+        {
+          "name": "getRawType",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.reflect.WildcardType",
+      "methods": [
+        {
+          "name": "getUpperBounds",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.util.Locale",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "forLanguageTag",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.util.Locale[]"
+    },
+    {
+      "type": "java.util.concurrent.Executor"
+    },
+    {
+      "type": "java.util.concurrent.ThreadFactory"
+    },
+    {
+      "type": "java.util.logging.LogManager"
+    },
+    {
+      "type": "javax.money.MonetaryAmount"
+    },
+    {
+      "type": "javax.naming.InitialContext"
+    },
+    {
+      "type": "javax.swing.plaf.basic.BasicGraphicsUtils",
+      "methods": [
+        {
+          "name": "drawStringUnderlineCharAt",
+          "parameterTypes": [
+            "javax.swing.JComponent",
+            "java.awt.Graphics2D",
+            "java.lang.String",
+            "int",
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jdk.crac.management.CRaCMXBean"
+    },
+    {
+      "type": "jdk.internal.loader.ClassLoaders$AppClassLoader"
+    },
+    {
+      "type": "jdk.internal.loader.ClassLoaders$PlatformClassLoader"
+    },
+    {
+      "type": "jdk.internal.misc.Unsafe"
+    },
+    {
+      "type": "kotlin.Metadata"
+    },
+    {
+      "type": "kotlin.reflect.full.KClasses"
+    },
+    {
+      "type": "kotlinx.coroutines.reactor.MonoKt"
+    },
+    {
+      "type": "net.miginfocom.swing.MigLayout"
+    },
+    {
+      "type": "org.apache.commons.logging.LogFactory"
+    },
+    {
+      "type": "org.apache.commons.logging.impl.Slf4jLogFactory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.commons.logging.impl.WeakHashtable",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.logging.log4j.core.impl.Log4jContextFactory"
+    },
+    {
+      "type": "org.apache.logging.log4j.util.EnvironmentPropertySource"
+    },
+    {
+      "type": "org.apache.logging.log4j.util.SystemPropertiesPropertySource"
+    },
+    {
+      "type": "org.apache.logging.slf4j.SLF4JProvider"
+    },
+    {
+      "type": "org.aspectj.weaver.Advice"
+    },
+    {
+      "type": "org.crac.Core"
+    },
+    {
+      "type": "org.eclipse.core.runtime.FileLocator"
+    },
+    {
+      "type": "org.jboss.logging.Logger"
+    },
+    {
+      "type": "org.osgi.framework.FrameworkUtil"
+    },
+    {
+      "type": "org.reactivestreams.Publisher"
+    },
+    {
+      "type": "org.slf4j.bridge.SLF4JBridgeHandler"
+    },
+    {
+      "type": "org.slf4j.helpers.Log4jLoggerFactory"
+    },
+    {
+      "type": "org.springframework.aop.framework.AopInfrastructureBean"
+    },
+    {
+      "type": "org.springframework.aop.framework.ProxyConfig",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setProxyTargetClass",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.aop.framework.ProxyProcessorSupport",
+      "methods": [
+        {
+          "name": "setOrder",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator"
+    },
+    {
+      "type": "org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator"
+    },
+    {
+      "type": "org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.aot.generate.Generated"
+    },
+    {
+      "type": "org.springframework.beans.factory.Aware"
+    },
+    {
+      "type": "org.springframework.beans.factory.BeanClassLoaderAware"
+    },
+    {
+      "type": "org.springframework.beans.factory.BeanFactoryAware"
+    },
+    {
+      "type": "org.springframework.beans.factory.BeanNameAware"
+    },
+    {
+      "type": "org.springframework.beans.factory.DisposableBean"
+    },
+    {
+      "type": "org.springframework.beans.factory.FactoryBean"
+    },
+    {
+      "type": "org.springframework.beans.factory.InitializingBean"
+    },
+    {
+      "type": "org.springframework.beans.factory.annotation.Autowired"
+    },
+    {
+      "type": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.beans.factory.aot.BeanFactoryInitializationAotProcessor"
+    },
+    {
+      "type": "org.springframework.beans.factory.aot.BeanRegistrationAotProcessor"
+    },
+    {
+      "type": "org.springframework.beans.factory.config.BeanFactoryPostProcessor"
+    },
+    {
+      "type": "org.springframework.beans.factory.config.BeanPostProcessor"
+    },
+    {
+      "type": "org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor"
+    },
+    {
+      "type": "org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor"
+    },
+    {
+      "type": "org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor"
+    },
+    {
+      "type": "org.springframework.boot.ApplicationProperties"
+    },
+    {
+      "type": "org.springframework.boot.ClearCachesApplicationListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.CommandLineRunner"
+    },
+    {
+      "type": "org.springframework.boot.Runner"
+    },
+    {
+      "type": "org.springframework.boot.SpringBootConfiguration"
+    },
+    {
+      "type": "org.springframework.boot.ansi.AnsiOutput$Enabled"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfiguration"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfigurationExcludeFilter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfigurationImportSelector",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfigurationPackage"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfigurationPackages$Registrar",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfigureAfter"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfigureBefore"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.AutoConfigureOrder"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.EnableAutoConfiguration"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.SharedMetadataReaderFactoryContextInitializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.SpringBootApplication"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "forceAutoProxyCreatorToUseClassProxying",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "applicationAvailability",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.ConditionEvaluationReportAutoConfigurationImportListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.ConditionalOnBean"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.ConditionalOnBooleanProperty"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.ConditionalOnClass"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.ConditionalOnMissingClass"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.ConditionalOnProperty"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.ConditionalOnResource"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.ConditionalOnThreading"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.OnBeanCondition",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.OnClassCondition",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.OnPropertyCondition",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.OnResourceCondition",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.OnThreadingCondition",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.OnWebApplicationCondition",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.condition.SearchStrategy"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "defaultLifecycleProcessor",
+          "parameterTypes": [
+            "org.springframework.boot.autoconfigure.context.LifecycleProperties"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.context.LifecycleProperties",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration$ResourceBundleCondition",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "propertySourcesPlaceholderConfigurer",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.boot.autoconfigure.info.ProjectInfoProperties"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration$GitResourceAvailableCondition",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.info.ProjectInfoProperties",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.preinitialize.BackgroundPreinitializingApplicationListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.preinitialize.CharsetsBackgroundPreinitializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.preinitialize.ConversionServiceBackgroundPreinitializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.ssl.FileWatcher"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.core.io.ResourceLoader",
+            "org.springframework.boot.autoconfigure.ssl.SslProperties"
+          ]
+        },
+        {
+          "name": "fileWatcher",
+          "parameterTypes": []
+        },
+        {
+          "name": "sslBundleRegistry",
+          "parameterTypes": [
+            "org.springframework.beans.factory.ObjectProvider"
+          ]
+        },
+        {
+          "name": "sslPropertiesSslBundleRegistrar",
+          "parameterTypes": [
+            "org.springframework.boot.autoconfigure.ssl.FileWatcher"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.ssl.SslBundleRegistrar"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.ssl.SslProperties",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.ssl.SslPropertiesBundleRegistrar"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutionProperties",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ApplicationTaskExecutorAsyncConfigurer"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "applicationTaskExecutorAsyncConfigurer",
+          "parameterTypes": [
+            "org.springframework.beans.factory.BeanFactory"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerWrapperConfiguration"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "bootstrapExecutorAliasPostProcessor",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$OnExecutorCondition",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.boot.autoconfigure.task.TaskExecutionProperties",
+            "org.springframework.beans.factory.ObjectProvider",
+            "org.springframework.beans.factory.ObjectProvider"
+          ]
+        },
+        {
+          "name": "simpleAsyncTaskExecutorBuilder",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "applicationTaskExecutor",
+          "parameterTypes": [
+            "org.springframework.boot.task.ThreadPoolTaskExecutorBuilder"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "threadPoolTaskExecutorBuilder",
+          "parameterTypes": [
+            "org.springframework.boot.autoconfigure.task.TaskExecutionProperties",
+            "org.springframework.beans.factory.ObjectProvider",
+            "org.springframework.beans.factory.ObjectProvider"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties",
+            "org.springframework.beans.factory.ObjectProvider",
+            "org.springframework.beans.factory.ObjectProvider"
+          ]
+        },
+        {
+          "name": "simpleAsyncTaskSchedulerBuilder",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$TaskSchedulerConfiguration"
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "threadPoolTaskSchedulerBuilder",
+          "parameterTypes": [
+            "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties",
+            "org.springframework.beans.factory.ObjectProvider",
+            "org.springframework.beans.factory.ObjectProvider"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.availability.ApplicationAvailability"
+    },
+    {
+      "type": "org.springframework.boot.availability.ApplicationAvailabilityBean"
+    },
+    {
+      "type": "org.springframework.boot.builder.ParentContextCloserApplicationListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.cloud.CloudFoundryVcapEnvironmentPostProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.boot.logging.DeferredLogFactory"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.ContextIdApplicationContextInitializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.FileEncodingApplicationListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.TypeExcludeFilter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.boot.logging.DeferredLogFactory",
+            "org.springframework.boot.bootstrap.ConfigurableBootstrapContext"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.config.ConfigDataLocation[]"
+    },
+    {
+      "type": "org.springframework.boot.context.config.ConfigDataNotFoundAction"
+    },
+    {
+      "type": "org.springframework.boot.context.config.ConfigDataProperties"
+    },
+    {
+      "type": "org.springframework.boot.context.config.ConfigTreeConfigDataLoader",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.config.ConfigTreeConfigDataLocationResolver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.core.io.ResourceLoader"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.config.StandardConfigDataLoader",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.config.StandardConfigDataLocationResolver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.boot.logging.DeferredLogFactory",
+            "org.springframework.boot.context.properties.bind.Binder",
+            "org.springframework.core.io.ResourceLoader"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.config.SystemEnvironmentConfigDataLoader",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.config.SystemEnvironmentConfigDataLocationResolver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.event.EventPublishingRunListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.boot.SpringApplication",
+            "java.lang.String[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.logging.LoggingApplicationListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.properties.BoundConfigurationProperties",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.properties.ConfigurationProperties"
+    },
+    {
+      "type": "org.springframework.boot.context.properties.ConfigurationPropertiesBinder$ConfigurationPropertiesBinderFactory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.properties.EnableConfigurationProperties"
+    },
+    {
+      "type": "org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.context.properties.bind.Name"
+    },
+    {
+      "type": "org.springframework.boot.env.PropertiesPropertySourceLoader",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.env.YamlPropertySourceLoader",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.io.Base64ProtocolResolver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.io.ClassPathResourceFilePathResolver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.io.ProtocolResolverApplicationContextInitializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.loader.launch.JarLauncher",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "main",
+          "parameterTypes": [
+            "java.lang.String[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.loader.launch.LaunchedClassLoader"
+    },
+    {
+      "type": "org.springframework.boot.logging.java.JavaLoggingSystem$Factory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.logging.log4j2.Log4J2LoggingSystem$Factory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.logging.log4j2.SpringBootPropertySource"
+    },
+    {
+      "type": "org.springframework.boot.logging.logback.LogbackLoggingSystem$Factory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.logging.logback.RootLogLevelConfigurator"
+    },
+    {
+      "type": "org.springframework.boot.ssl.DefaultSslBundleRegistry"
+    },
+    {
+      "type": "org.springframework.boot.ssl.SslBundleRegistry"
+    },
+    {
+      "type": "org.springframework.boot.ssl.SslBundles"
+    },
+    {
+      "type": "org.springframework.boot.support.AnsiOutputApplicationListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.support.EnvironmentPostProcessorApplicationListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.support.RandomValuePropertySourceEnvironmentPostProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.springframework.boot.logging.DeferredLogFactory"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.support.SpringApplicationJsonEnvironmentPostProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.support.SystemEnvironmentPropertySourceEnvironmentPostProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder"
+    },
+    {
+      "type": "org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder"
+    },
+    {
+      "type": "org.springframework.boot.task.ThreadPoolTaskExecutorBuilder"
+    },
+    {
+      "type": "org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder"
+    },
+    {
+      "type": "org.springframework.boot.thread.Threading"
+    },
+    {
+      "type": "org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter",
+      "methods": [
+        {
+          "name": "byAnnotation",
+          "parameterTypes": [
+            "java.lang.Class"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.web.context.reactive.FilteredReactiveWebContextResourceFilePathResolver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.boot.web.context.servlet.ServletContextResourceFilePathResolver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.context.ApplicationContextAware"
+    },
+    {
+      "type": "org.springframework.context.ApplicationListener"
+    },
+    {
+      "type": "org.springframework.context.ApplicationStartupAware"
+    },
+    {
+      "type": "org.springframework.context.EnvironmentAware"
+    },
+    {
+      "type": "org.springframework.context.LifecycleProcessor"
+    },
+    {
+      "type": "org.springframework.context.ResourceLoaderAware"
+    },
+    {
+      "type": "org.springframework.context.SmartLifecycle"
+    },
+    {
+      "type": "org.springframework.context.annotation.AnnotationScopeMetadataResolver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.context.annotation.Bean"
+    },
+    {
+      "type": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.context.annotation.ComponentScan"
+    },
+    {
+      "type": "org.springframework.context.annotation.ComponentScan$Filter"
+    },
+    {
+      "type": "org.springframework.context.annotation.Conditional"
+    },
+    {
+      "type": "org.springframework.context.annotation.Configuration"
+    },
+    {
+      "type": "org.springframework.context.annotation.ConfigurationClassPostProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setMetadataReaderFactory",
+          "parameterTypes": [
+            "org.springframework.core.type.classreading.MetadataReaderFactory"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.context.annotation.Import"
+    },
+    {
+      "type": "org.springframework.context.annotation.ImportRuntimeHints"
+    },
+    {
+      "type": "org.springframework.context.annotation.Lazy"
+    },
+    {
+      "type": "org.springframework.context.annotation.Primary"
+    },
+    {
+      "type": "org.springframework.context.event.DefaultEventListenerFactory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.context.event.EventListenerMethodProcessor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.springframework.context.support.DefaultLifecycleProcessor"
+    },
+    {
+      "type": "org.springframework.context.support.PropertySourcesPlaceholderConfigurer"
+    },
+    {
+      "type": "org.springframework.core.Ordered"
+    },
+    {
+      "type": "org.springframework.core.PriorityOrdered"
+    },
+    {
+      "type": "org.springframework.core.annotation.AliasFor"
+    },
+    {
+      "type": "org.springframework.core.annotation.AnnotationAttributes[]"
+    },
+    {
+      "type": "org.springframework.core.annotation.Order"
+    },
+    {
+      "type": "org.springframework.core.task.AsyncTaskExecutor"
+    },
+    {
+      "type": "org.springframework.core.type.classreading.CachingMetadataReaderFactory"
+    },
+    {
+      "type": "org.springframework.core.type.classreading.MetadataReaderFactory"
+    },
+    {
+      "type": "org.springframework.jmx.export.MBeanExporter"
+    },
+    {
+      "type": "org.springframework.scheduling.SchedulingTaskExecutor"
+    },
+    {
+      "type": "org.springframework.scheduling.annotation.AsyncConfigurer"
+    },
+    {
+      "type": "org.springframework.scheduling.concurrent.CustomizableThreadFactory"
+    },
+    {
+      "type": "org.springframework.scheduling.concurrent.ExecutorConfigurationSupport"
+    },
+    {
+      "type": "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor"
+    },
+    {
+      "type": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler"
+    },
+    {
+      "type": "org.springframework.stereotype.Component"
+    },
+    {
+      "type": "org.springframework.stereotype.Indexed"
+    },
+    {
+      "type": "org.springframework.util.ConcurrentReferenceHashMap$Segment[]"
+    },
+    {
+      "type": "org.springframework.util.CustomizableThreadCreator"
+    },
+    {
+      "type": "org.springframework.web.context.support.ServletContextResource"
+    },
+    {
+      "type": "org.springframework.web.reactive.DispatcherHandler"
+    },
+    {
+      "type": "sun.awt.AWTAutoShutdown",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "notifyToolkitThreadBusy",
+          "parameterTypes": []
+        },
+        {
+          "name": "notifyToolkitThreadFree",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.EmbeddedFrame",
+      "jniAccessible": true
+    },
+    {
+      "type": "sun.awt.ExtendedKeyCodes",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getExtendedKeyCodeForChar",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.FontDescriptor",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "nativeName"
+        },
+        {
+          "name": "useUnicode"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.LightweightFrame",
+      "jniAccessible": true
+    },
+    {
+      "type": "sun.awt.PlatformFont",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "componentFonts"
+        },
+        {
+          "name": "fontConfig"
+        }
+      ],
+      "methods": [
+        {
+          "name": "makeConvertedMultiFontString",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.SunHints",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "INTVAL_STROKE_PURE"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.SunToolkit",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "isTouchKeyboardAutoShowEnabled",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.Symbol",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.TimedWindowEvent",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.awt.Window",
+            "int",
+            "java.awt.Window",
+            "int",
+            "int",
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.Win32GraphicsConfig",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "visual"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.Win32GraphicsDevice",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "dynamicColorModel"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.Win32GraphicsEnvironment",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "dwmCompositionChanged",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.im.InputMethodWindow",
+      "jniAccessible": true
+    },
+    {
+      "type": "sun.awt.image.BufImgSurfaceData$ICMColorData",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "pData"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.image.IntegerComponentRaster",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "dataOffsets"
+        },
+        {
+          "name": "pixelStride"
+        },
+        {
+          "name": "scanlineStride"
+        },
+        {
+          "name": "type"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.image.SunVolatileImage",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "volSurfaceManager"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.image.VolatileSurfaceManager",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "sdCurrent"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WComponentPeer",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "hwnd"
+        },
+        {
+          "name": "winGraphicsConfig"
+        }
+      ],
+      "methods": [
+        {
+          "name": "disposeLater",
+          "parameterTypes": []
+        },
+        {
+          "name": "handleExpose",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "postEvent",
+          "parameterTypes": [
+            "java.awt.AWTEvent"
+          ]
+        },
+        {
+          "name": "replaceSurfaceData",
+          "parameterTypes": []
+        },
+        {
+          "name": "replaceSurfaceDataLater",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WDesktopPeer",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "systemSleepCallback",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "userSessionCallback",
+          "parameterTypes": [
+            "boolean",
+            "java.awt.desktop.UserSessionEvent$Reason"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WDesktopProperties",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "pData"
+        }
+      ],
+      "methods": [
+        {
+          "name": "setBooleanProperty",
+          "parameterTypes": [
+            "java.lang.String",
+            "boolean"
+          ]
+        },
+        {
+          "name": "setColorProperty",
+          "parameterTypes": [
+            "java.lang.String",
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "setFontProperty",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "setIntegerProperty",
+          "parameterTypes": [
+            "java.lang.String",
+            "int"
+          ]
+        },
+        {
+          "name": "setSoundProperty",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setStringProperty",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WFontPeer",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "textComponentFontName"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WFramePeer",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getExtendedState",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WGlobalCursorManager",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "nativeUpdateCursor",
+          "parameterTypes": [
+            "java.awt.Component"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WObjectPeer",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "createError"
+        },
+        {
+          "name": "destroyed"
+        },
+        {
+          "name": "pData"
+        },
+        {
+          "name": "target"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getPeerForTarget",
+          "parameterTypes": [
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WPanelPeer",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "insets_"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WToolkit",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "displayChanged",
+          "parameterTypes": []
+        },
+        {
+          "name": "paletteChanged",
+          "parameterTypes": []
+        },
+        {
+          "name": "windowsSettingChange",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WWindowPeer",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "windowType"
+        }
+      ],
+      "methods": [
+        {
+          "name": "draggedToNewScreen",
+          "parameterTypes": []
+        },
+        {
+          "name": "notifyWindowStateChanged",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "setBackground",
+          "parameterTypes": [
+            "java.awt.Color"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.windows.WingDings",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.font.CharToGlyphMapper",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "charToGlyph",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.Font2D",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "canDisplay",
+          "parameterTypes": [
+            "char"
+          ]
+        },
+        {
+          "name": "charToGlyphRaw",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "charToVariationGlyphRaw",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getMapper",
+          "parameterTypes": []
+        },
+        {
+          "name": "getTableBytes",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.FontStrike",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "getGlyphMetrics",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.FontUtilities",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "debugFonts",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.font.FreetypeFontScaler",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "invalidateScaler",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.font.GlyphList",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "gposx"
+        },
+        {
+          "name": "gposy"
+        },
+        {
+          "name": "images"
+        },
+        {
+          "name": "lcdRGBOrder"
+        },
+        {
+          "name": "lcdSubPixPos"
+        },
+        {
+          "name": "len"
+        },
+        {
+          "name": "positions"
+        },
+        {
+          "name": "usePositions"
+        }
+      ]
+    },
+    {
+      "type": "sun.font.PhysicalStrike",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "pScalerContext"
+        }
+      ],
+      "methods": [
+        {
+          "name": "adjustPoint",
+          "parameterTypes": [
+            "java.awt.geom.Point2D$Float"
+          ]
+        },
+        {
+          "name": "getGlyphPoint",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.StrikeMetrics",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.TrueTypeFont",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "readBlock",
+          "parameterTypes": [
+            "java.nio.ByteBuffer",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "readBytes",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.Type1Font",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "readFile",
+          "parameterTypes": [
+            "java.nio.ByteBuffer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.Disposer",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "addRecord",
+          "parameterTypes": [
+            "java.lang.Object",
+            "long",
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.InvalidPipeException",
+      "jniAccessible": true
+    },
+    {
+      "type": "sun.java2d.NullSurfaceData",
+      "jniAccessible": true
+    },
+    {
+      "type": "sun.java2d.SunGraphics2D",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "clipRegion"
+        },
+        {
+          "name": "composite"
+        },
+        {
+          "name": "eargb"
+        },
+        {
+          "name": "lcdTextContrast"
+        },
+        {
+          "name": "pixel"
+        },
+        {
+          "name": "strokeHint"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.SurfaceData",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "pData"
+        },
+        {
+          "name": "valid"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.d3d.D3DGraphicsDevice$1",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "run",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.d3d.D3DRenderQueue$1",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "run",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.d3d.D3DSurfaceData",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "nativeHeight"
+        },
+        {
+          "name": "nativeWidth"
+        }
+      ],
+      "methods": [
+        {
+          "name": "setSurfaceLost",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.d3d.D3DSurfaceData$1",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "run",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.Blit",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.BlitBg",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.CompositeType",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "AnyAlpha"
+        },
+        {
+          "name": "Src"
+        },
+        {
+          "name": "SrcNoEa"
+        },
+        {
+          "name": "SrcOver"
+        },
+        {
+          "name": "SrcOverNoEa"
+        },
+        {
+          "name": "Xor"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawGlyphList",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawGlyphListAA",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawGlyphListLCD",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawLine",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawParallelogram",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawPath",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawPolygons",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawRect",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.FillParallelogram",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.FillPath",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.FillRect",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.FillSpans",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.GraphicsPrimitive",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "pNativePrim"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.GraphicsPrimitiveMgr",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "register",
+          "parameterTypes": [
+            "sun.java2d.loops.GraphicsPrimitive[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.GraphicsPrimitive[]"
+    },
+    {
+      "type": "sun.java2d.loops.MaskBlit",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.MaskFill",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.ScaledBlit",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.SetDrawLineANY",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.SetDrawPathANY",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.SetDrawPolygonsANY",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.SetDrawRectANY",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.SetFillPathANY",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.SetFillRectANY",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.SetFillSpansANY",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.SurfaceType",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "Any3Byte"
+        },
+        {
+          "name": "Any4Byte"
+        },
+        {
+          "name": "AnyByte"
+        },
+        {
+          "name": "AnyColor"
+        },
+        {
+          "name": "AnyInt"
+        },
+        {
+          "name": "AnyShort"
+        },
+        {
+          "name": "ByteBinary1Bit"
+        },
+        {
+          "name": "ByteBinary2Bit"
+        },
+        {
+          "name": "ByteBinary4Bit"
+        },
+        {
+          "name": "ByteGray"
+        },
+        {
+          "name": "ByteIndexed"
+        },
+        {
+          "name": "ByteIndexedBm"
+        },
+        {
+          "name": "FourByteAbgr"
+        },
+        {
+          "name": "FourByteAbgrPre"
+        },
+        {
+          "name": "Index12Gray"
+        },
+        {
+          "name": "Index8Gray"
+        },
+        {
+          "name": "IntArgb"
+        },
+        {
+          "name": "IntArgbBm"
+        },
+        {
+          "name": "IntArgbPre"
+        },
+        {
+          "name": "IntBgr"
+        },
+        {
+          "name": "IntRgb"
+        },
+        {
+          "name": "IntRgbx"
+        },
+        {
+          "name": "OpaqueColor"
+        },
+        {
+          "name": "ThreeByteBgr"
+        },
+        {
+          "name": "Ushort4444Argb"
+        },
+        {
+          "name": "Ushort555Rgb"
+        },
+        {
+          "name": "Ushort555Rgbx"
+        },
+        {
+          "name": "Ushort565Rgb"
+        },
+        {
+          "name": "UshortGray"
+        },
+        {
+          "name": "UshortIndexed"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.TransformHelper",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.XORComposite",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "alphaMask"
+        },
+        {
+          "name": "xorColor"
+        },
+        {
+          "name": "xorPixel"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.marlin.DMarlinRenderingEngine",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.pipe.Region",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bands"
+        },
+        {
+          "name": "endIndex"
+        },
+        {
+          "name": "hix"
+        },
+        {
+          "name": "hiy"
+        },
+        {
+          "name": "lox"
+        },
+        {
+          "name": "loy"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.pipe.RegionIterator",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "curIndex"
+        },
+        {
+          "name": "numXbands"
+        },
+        {
+          "name": "region"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.windows.WindowsFlags",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "d3dEnabled"
+        },
+        {
+          "name": "d3dSet"
+        },
+        {
+          "name": "setHighDPIAware"
+        }
+      ]
+    },
+    {
+      "type": "sun.launcher.LauncherHelper",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "isStaticMain"
+        },
+        {
+          "name": "noArgMain"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getApplicationClass",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.management.VMManagementImpl",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "compTimeMonitoringSupport"
+        },
+        {
+          "name": "currentThreadCpuTimeSupport"
+        },
+        {
+          "name": "objectMonitorUsageSupport"
+        },
+        {
+          "name": "otherThreadCpuTimeSupport"
+        },
+        {
+          "name": "remoteDiagnosticCommandsSupport"
+        },
+        {
+          "name": "synchronizerUsageSupport"
+        },
+        {
+          "name": "threadAllocatedMemorySupport"
+        },
+        {
+          "name": "threadContentionMonitoringSupport"
+        }
+      ]
+    },
+    {
+      "type": "sun.reflect.misc.Trampoline",
+      "methods": [
+        {
+          "name": "invoke",
+          "parameterTypes": [
+            "java.lang.reflect.Method",
+            "java.lang.Object",
+            "java.lang.Object[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.text.resources.cldr.FormatData"
+    },
+    {
+      "type": "sun.text.resources.cldr.FormatData_en"
+    },
+    {
+      "type": "sun.text.resources.cldr.FormatData_en_US"
+    },
+    {
+      "type": {
+        "proxy": [
+          "java.lang.reflect.ParameterizedType",
+          "org.springframework.core.SerializableTypeWrapper$SerializableTypeProxy",
+          "java.io.Serializable"
+        ]
+      }
+    },
+    {
+      "type": {
+        "proxy": [
+          "java.lang.reflect.WildcardType",
+          "org.springframework.core.SerializableTypeWrapper$SerializableTypeProxy",
+          "java.io.Serializable"
+        ]
+      }
+    },
+    {
+      "type": {
+        "proxy": [
+          "org.springframework.boot.context.properties.ConfigurationProperties"
+        ]
+      }
+    },
+    {
+      "type": {
+        "lambda": {
+          "declaringClass": "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration",
+          "interfaces": [
+            "org.springframework.beans.factory.config.BeanFactoryPostProcessor"
+          ]
+        }
+      }
+    },
+    {
+      "type": {
+        "lambda": {
+          "declaringClass": "org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration",
+          "interfaces": [
+            "org.springframework.beans.factory.config.BeanFactoryPostProcessor"
+          ]
+        }
+      }
+    },
+    {
+      "type": {
+        "lambda": {
+          "declaringClass": "org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter",
+          "interfaces": [
+            "org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter"
+          ]
+        }
+      }
+    }
+  ],
+  "resources": [
+    {
+      "glob": "META-INF/build-info.properties"
+    },
+    {
+      "glob": "META-INF/services/ch.qos.logback.classic.spi.Configurator"
+    },
+    {
+      "glob": "META-INF/services/com.formdev.flatlaf.FlatDefaultsAddon"
+    },
+    {
+      "glob": "META-INF/services/java.awt.im.spi.InputMethodDescriptor"
+    },
+    {
+      "glob": "META-INF/services/java.net.spi.URLStreamHandlerProvider"
+    },
+    {
+      "glob": "META-INF/services/java.time.zone.ZoneRulesProvider"
+    },
+    {
+      "glob": "META-INF/services/java.util.spi.ResourceBundleControlProvider"
+    },
+    {
+      "glob": "META-INF/services/org.apache.commons.logging.LogFactory"
+    },
+    {
+      "glob": "META-INF/services/org.apache.logging.log4j.util.PropertySource"
+    },
+    {
+      "glob": "META-INF/services/org.slf4j.spi.SLF4JServiceProvider"
+    },
+    {
+      "glob": "META-INF/spring-autoconfigure-metadata.properties"
+    },
+    {
+      "glob": "META-INF/spring.components"
+    },
+    {
+      "glob": "META-INF/spring.factories"
+    },
+    {
+      "glob": "META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports"
+    },
+    {
+      "glob": "META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.replacements"
+    },
+    {
+      "glob": "application-default.properties"
+    },
+    {
+      "glob": "application-default.xml"
+    },
+    {
+      "glob": "application-default.yaml"
+    },
+    {
+      "glob": "application-default.yml"
+    },
+    {
+      "glob": "application.properties"
+    },
+    {
+      "glob": "application.xml"
+    },
+    {
+      "glob": "application.yaml"
+    },
+    {
+      "glob": "application.yml"
+    },
+    {
+      "glob": "com/formdev/flatlaf/FlatLaf.properties"
+    },
+    {
+      "glob": "com/formdev/flatlaf/FlatLightLaf.properties"
+    },
+    {
+      "glob": "com/formdev/flatlaf/natives/flatlaf-windows-x86_64.dll"
+    },
+    {
+      "glob": "com/formdev/flatlaf/resources/Bundle.properties"
+    },
+    {
+      "glob": "com/formdev/flatlaf/resources/Bundle_en.properties"
+    },
+    {
+      "glob": "com/formdev/flatlaf/resources/Bundle_en_US.properties"
+    },
+    {
+      "glob": "com/kgonia/imagez"
+    },
+    {
+      "glob": "commons-logging.properties"
+    },
+    {
+      "glob": "config/application-default.properties"
+    },
+    {
+      "glob": "config/application-default.xml"
+    },
+    {
+      "glob": "config/application-default.yaml"
+    },
+    {
+      "glob": "config/application-default.yml"
+    },
+    {
+      "glob": "config/application.properties"
+    },
+    {
+      "glob": "config/application.xml"
+    },
+    {
+      "glob": "config/application.yaml"
+    },
+    {
+      "glob": "config/application.yml"
+    },
+    {
+      "glob": "git.properties"
+    },
+    {
+      "glob": "log4j2.StatusLogger.properties"
+    },
+    {
+      "glob": "log4j2.component.properties"
+    },
+    {
+      "glob": "log4j2.system.properties"
+    },
+    {
+      "glob": "logback-spring.groovy"
+    },
+    {
+      "glob": "logback-spring.xml"
+    },
+    {
+      "glob": "logback-test-spring.groovy"
+    },
+    {
+      "glob": "logback-test-spring.xml"
+    },
+    {
+      "glob": "logback-test.groovy"
+    },
+    {
+      "glob": "logback-test.xml"
+    },
+    {
+      "glob": "logback.groovy"
+    },
+    {
+      "glob": "logback.xml"
+    },
+    {
+      "glob": "messages.properties"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/AutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/AutoConfigureAfter.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/AutoConfigureBefore.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/AutoConfigureOrder.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/aop/AopAutoConfiguration$AspectJAutoProxyingConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/aop/AopAutoConfiguration$ClassProxyingConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/aop/AopAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/availability/ApplicationAvailabilityAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/condition/ConditionalOnBean.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/condition/ConditionalOnBooleanProperty.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/condition/ConditionalOnClass.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/condition/ConditionalOnMissingClass.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/context/ConfigurationPropertiesAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/context/LifecycleAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/context/MessageSourceAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/context/PropertyPlaceholderAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/info/ProjectInfoAutoConfiguration$GitResourceAvailableCondition.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/info/ProjectInfoAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/jmx/JmxAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/ssl/SslAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutionAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutorConfigurations$AsyncConfigurerConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutorConfigurations$AsyncConfigurerWrapperConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutorConfigurations$BootstrapExecutorConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutorConfigurations$OnExecutorCondition$ExecutorBeanCondition.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutorConfigurations$OnExecutorCondition$ModelCondition.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutorConfigurations$OnExecutorCondition.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutorConfigurations$TaskExecutorConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskSchedulingAutoConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskSchedulingConfigurations$TaskSchedulerConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/autoconfigure/task/TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration.class"
+    },
+    {
+      "glob": "org/springframework/boot/context/properties/EnableConfigurationProperties.class"
+    },
+    {
+      "glob": "org/springframework/boot/context/properties/EnableConfigurationPropertiesRegistrar.class"
+    },
+    {
+      "glob": "org/springframework/context/annotation/Conditional.class"
+    },
+    {
+      "glob": "org/springframework/context/annotation/Configuration.class"
+    },
+    {
+      "glob": "org/springframework/context/annotation/Import.class"
+    },
+    {
+      "glob": "org/springframework/context/annotation/ImportBeanDefinitionRegistrar.class"
+    },
+    {
+      "glob": "spring.properties"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "com/formdev/flatlaf/resources/Bundle.properties"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "com/sun/swing/internal/plaf/basic/resources/basic_en.properties"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "com/sun/swing/internal/plaf/basic/resources/basic_en_US.properties"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "javax/swing/text/html/default.css"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "sun/awt/resources/awt_en.properties"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "sun/awt/resources/awt_en_US.properties"
+    },
+    {
+      "bundle": "com.formdev.flatlaf.resources.Bundle"
+    },
+    {
+      "bundle": "com.sun.swing.internal.plaf.basic.resources.basic"
+    },
+    {
+      "bundle": "sun.awt.resources.awt"
+    }
+  ]
+}
