@@ -16,6 +16,9 @@ Why not? I planed to start with pure swing, then FlatLightLaf. Later I discovere
 
 Again, why not? We all know spring. It is not required, but I like it. Look at all those possibilities.
 
+### Application screenshot
+
+![Application Screenshot](Capture.PNG)
 
 ---
 
