@@ -1,6 +1,24 @@
 {
   "reflection": [
     {
+      "type": "android.os.Build"
+    },
+    {
+      "type": "androidx.compose.ui.awt.ComposeWindow"
+    },
+    {
+      "type": "androidx.compose.ui.awt.ComposeWindowPanel"
+    },
+    {
+      "type": "androidx.compose.ui.awt.JLayeredPaneWithTransparencyHack"
+    },
+    {
+      "type": "androidx.compose.ui.scene.ComposeSceneMediator$InvisibleComponent"
+    },
+    {
+      "type": "androidx.compose.ui.scene.skia.WindowSkiaLayerComponent$contentComponent$1"
+    },
+    {
       "type": "boolean"
     },
     {
@@ -31,165 +49,19 @@
       ]
     },
     {
-      "type": "com.formdev.flatlaf.icons.FlatHelpButtonIcon",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.icons.FlatWindowCloseIcon",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.icons.FlatWindowIconifyIcon",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.icons.FlatWindowMaximizeIcon",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.icons.FlatWindowRestoreIcon",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.resources.Bundle"
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatButtonBorder",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatButtonUI",
-      "methods": [
-        {
-          "name": "createUI",
-          "parameterTypes": [
-            "javax.swing.JComponent"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatLabelUI",
-      "methods": [
-        {
-          "name": "createUI",
-          "parameterTypes": [
-            "javax.swing.JComponent"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatPanelUI",
-      "methods": [
-        {
-          "name": "createUI",
-          "parameterTypes": [
-            "javax.swing.JComponent"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatRootPaneUI",
-      "methods": [
-        {
-          "name": "createUI",
-          "parameterTypes": [
-            "javax.swing.JComponent"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatTitlePane"
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatTitlePane$1"
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatTitlePane$2"
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatTitlePane$4"
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatTitlePane$6"
-    },
-    {
-      "type": "com.formdev.flatlaf.ui.FlatWindowsNativeWindowBorder$WndProc",
-      "jniAccessible": true,
-      "methods": [
-        {
-          "name": "fireStateChangedLaterOnce",
-          "parameterTypes": []
-        },
-        {
-          "name": "isFullscreen",
-          "parameterTypes": []
-        },
-        {
-          "name": "onNcHitTest",
-          "parameterTypes": [
-            "int",
-            "int",
-            "boolean"
-          ]
-        }
-      ]
-    },
-    {
       "type": "com.kgonia.imagez.ImagezApplication",
-      "fields": [
-        {
-          "name": "context"
-        }
-      ],
       "methods": [
         {
           "name": "<init>",
           "parameterTypes": []
-        },
-        {
-          "name": "main",
-          "parameterTypes": [
-            "java.lang.String[]"
-          ]
         }
       ]
     },
     {
       "type": "com.sun.swing.internal.plaf.basic.resources.basic"
+    },
+    {
+      "type": "com.sun.swing.internal.plaf.metal.resources.metal"
     },
     {
       "type": "groovy.lang.MetaClass"
@@ -253,6 +125,10 @@
           "name": "rule"
         }
       ]
+    },
+    {
+      "type": "java.awt.Canvas",
+      "jniAccessible": true
     },
     {
       "type": "java.awt.Color",
@@ -409,21 +285,6 @@
         },
         {
           "name": "getFontPeer",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "java.awt.FontMetrics",
-      "jniAccessible": true,
-      "fields": [
-        {
-          "name": "font"
-        }
-      ],
-      "methods": [
-        {
-          "name": "getHeight",
           "parameterTypes": []
         }
       ]
@@ -600,13 +461,7 @@
           "name": "VK_CONTEXT_MENU"
         },
         {
-          "name": "VK_ENTER"
-        },
-        {
           "name": "VK_F10"
-        },
-        {
-          "name": "VK_SPACE"
         },
         {
           "name": "extendedKeyCode"
@@ -663,9 +518,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "java.awt.event.MouseMotionListener[]"
     },
     {
       "type": "java.awt.geom.AffineTransform",
@@ -790,47 +642,6 @@
       ]
     },
     {
-      "type": "java.awt.image.BufferedImage",
-      "jniAccessible": true,
-      "fields": [
-        {
-          "name": "colorModel"
-        },
-        {
-          "name": "imageType"
-        },
-        {
-          "name": "raster"
-        }
-      ],
-      "methods": [
-        {
-          "name": "getRGB",
-          "parameterTypes": [
-            "int",
-            "int",
-            "int",
-            "int",
-            "int[]",
-            "int",
-            "int"
-          ]
-        },
-        {
-          "name": "setRGB",
-          "parameterTypes": [
-            "int",
-            "int",
-            "int",
-            "int",
-            "int[]",
-            "int",
-            "int"
-          ]
-        }
-      ]
-    },
-    {
       "type": "java.awt.image.ColorModel",
       "jniAccessible": true,
       "fields": [
@@ -889,9 +700,6 @@
           "name": "allgrayopaque"
         },
         {
-          "name": "colorData"
-        },
-        {
           "name": "lookupcache"
         },
         {
@@ -906,106 +714,31 @@
       ]
     },
     {
-      "type": "java.awt.image.Raster",
-      "jniAccessible": true,
-      "fields": [
-        {
-          "name": "dataBuffer"
-        },
-        {
-          "name": "height"
-        },
-        {
-          "name": "minX"
-        },
-        {
-          "name": "minY"
-        },
-        {
-          "name": "numBands"
-        },
-        {
-          "name": "numDataElements"
-        },
-        {
-          "name": "sampleModel"
-        },
-        {
-          "name": "sampleModelTranslateX"
-        },
-        {
-          "name": "sampleModelTranslateY"
-        },
-        {
-          "name": "width"
-        }
-      ]
-    },
-    {
-      "type": "java.awt.image.SampleModel",
-      "jniAccessible": true,
-      "fields": [
-        {
-          "name": "height"
-        },
-        {
-          "name": "width"
-        }
-      ],
-      "methods": [
-        {
-          "name": "getPixels",
-          "parameterTypes": [
-            "int",
-            "int",
-            "int",
-            "int",
-            "int[]",
-            "java.awt.image.DataBuffer"
-          ]
-        },
-        {
-          "name": "setPixels",
-          "parameterTypes": [
-            "int",
-            "int",
-            "int",
-            "int",
-            "int[]",
-            "java.awt.image.DataBuffer"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "java.awt.image.SinglePixelPackedSampleModel",
-      "jniAccessible": true,
-      "fields": [
-        {
-          "name": "bitMasks"
-        },
-        {
-          "name": "bitOffsets"
-        },
-        {
-          "name": "bitSizes"
-        },
-        {
-          "name": "maxBitSize"
-        }
-      ]
-    },
-    {
       "type": "java.io.Closeable"
     },
     {
-      "type": "java.io.Console",
+      "type": "java.io.Console"
+    },
+    {
+      "type": "java.io.OutputStream",
+      "jniAccessible": true,
       "methods": [
         {
-          "name": "isTerminal",
+          "name": "flush",
           "parameterTypes": []
+        },
+        {
+          "name": "write",
+          "parameterTypes": [
+            "byte[]",
+            "int",
+            "int"
+          ]
         }
       ]
+    },
+    {
+      "type": "java.io.Reader"
     },
     {
       "type": "java.io.Serializable"
@@ -1017,6 +750,10 @@
       "type": "java.lang.Boolean",
       "jniAccessible": true,
       "methods": [
+        {
+          "name": "booleanValue",
+          "parameterTypes": []
+        },
         {
           "name": "getBoolean",
           "parameterTypes": [
@@ -1030,14 +767,6 @@
     },
     {
       "type": "java.lang.Class"
-    },
-    {
-      "type": "java.lang.ClassLoader",
-      "fields": [
-        {
-          "name": "classLoaderValueMap"
-        }
-      ]
     },
     {
       "type": "java.lang.Class[]"
@@ -1056,7 +785,16 @@
       ]
     },
     {
-      "type": "java.lang.FunctionalInterface"
+      "type": "java.lang.Float",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float"
+          ]
+        }
+      ]
     },
     {
       "type": "java.lang.Object"
@@ -1065,16 +803,12 @@
       "type": "java.lang.Object[]"
     },
     {
+      "type": "java.lang.RuntimeException",
+      "jniAccessible": true
+    },
+    {
       "type": "java.lang.String",
-      "jniAccessible": true,
-      "methods": [
-        {
-          "name": "concat",
-          "parameterTypes": [
-            "java.lang.String"
-          ]
-        }
-      ]
+      "jniAccessible": true
     },
     {
       "type": "java.lang.String[]"
@@ -1102,6 +836,16 @@
       ]
     },
     {
+      "type": "java.lang.Throwable",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "printStackTrace",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
       "type": "java.lang.annotation.Documented"
     },
     {
@@ -1123,23 +867,21 @@
       "type": "java.lang.constant.ConstantDesc[]"
     },
     {
-      "type": "java.lang.reflect.ParameterizedType",
+      "type": "java.text.NumberFormat"
+    },
+    {
+      "type": "java.time.Duration"
+    },
+    {
+      "type": "java.util.Iterator",
+      "jniAccessible": true,
       "methods": [
         {
-          "name": "getActualTypeArguments",
+          "name": "hasNext",
           "parameterTypes": []
         },
         {
-          "name": "getRawType",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "java.lang.reflect.WildcardType",
-      "methods": [
-        {
-          "name": "getUpperBounds",
+          "name": "next",
           "parameterTypes": []
         }
       ]
@@ -1160,7 +902,16 @@
       "type": "java.util.Locale[]"
     },
     {
+      "type": "java.util.SortedSet"
+    },
+    {
       "type": "java.util.concurrent.Executor"
+    },
+    {
+      "type": "java.util.concurrent.Future"
+    },
+    {
+      "type": "java.util.concurrent.ScheduledThreadPoolExecutor"
     },
     {
       "type": "java.util.concurrent.ThreadFactory"
@@ -1175,17 +926,23 @@
       "type": "javax.naming.InitialContext"
     },
     {
-      "type": "javax.swing.plaf.basic.BasicGraphicsUtils",
+      "type": "javax.swing.plaf.basic.BasicPanelUI",
       "methods": [
         {
-          "name": "drawStringUnderlineCharAt",
+          "name": "createUI",
           "parameterTypes": [
-            "javax.swing.JComponent",
-            "java.awt.Graphics2D",
-            "java.lang.String",
-            "int",
-            "float",
-            "float"
+            "javax.swing.JComponent"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "javax.swing.plaf.metal.MetalRootPaneUI",
+      "methods": [
+        {
+          "name": "createUI",
+          "parameterTypes": [
+            "javax.swing.JComponent"
           ]
         }
       ]
@@ -1200,19 +957,119 @@
       "type": "jdk.internal.loader.ClassLoaders$PlatformClassLoader"
     },
     {
-      "type": "jdk.internal.misc.Unsafe"
+      "type": "kotlin.Metadata"
     },
     {
-      "type": "kotlin.Metadata"
+      "type": "kotlin.annotation.MustBeDocumented"
+    },
+    {
+      "type": "kotlin.annotation.Retention"
+    },
+    {
+      "type": "kotlin.annotation.Target"
+    },
+    {
+      "type": "kotlin.coroutines.Continuation"
+    },
+    {
+      "type": "kotlin.jvm.JvmInline"
+    },
+    {
+      "type": "kotlin.jvm.functions.Function0",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "invoke",
+          "parameterTypes": []
+        }
+      ]
     },
     {
       "type": "kotlin.reflect.full.KClasses"
     },
     {
+      "type": "kotlin.reflect.jvm.internal.ReflectionFactoryImpl"
+    },
+    {
+      "type": "kotlinx.coroutines.CancellableContinuationImpl"
+    },
+    {
+      "type": "kotlinx.coroutines.CancelledContinuation"
+    },
+    {
+      "type": "kotlinx.coroutines.CompletedExceptionally"
+    },
+    {
+      "type": "kotlinx.coroutines.DispatchedCoroutine"
+    },
+    {
+      "type": "kotlinx.coroutines.EventLoopImplBase"
+    },
+    {
+      "type": "kotlinx.coroutines.JobSupport"
+    },
+    {
+      "type": "kotlinx.coroutines.JobSupport$Finishing"
+    },
+    {
+      "type": "kotlinx.coroutines.channels.BufferedChannel"
+    },
+    {
+      "type": "kotlinx.coroutines.flow.StateFlowImpl"
+    },
+    {
+      "type": "kotlinx.coroutines.internal.ConcurrentLinkedListNode"
+    },
+    {
+      "type": "kotlinx.coroutines.internal.DispatchedContinuation"
+    },
+    {
+      "type": "kotlinx.coroutines.internal.LimitedDispatcher"
+    },
+    {
+      "type": "kotlinx.coroutines.internal.LockFreeLinkedListNode"
+    },
+    {
+      "type": "kotlinx.coroutines.internal.LockFreeTaskQueue"
+    },
+    {
+      "type": "kotlinx.coroutines.internal.LockFreeTaskQueueCore"
+    },
+    {
+      "type": "kotlinx.coroutines.internal.Segment"
+    },
+    {
+      "type": "kotlinx.coroutines.internal.ThreadSafeHeap"
+    },
+    {
       "type": "kotlinx.coroutines.reactor.MonoKt"
     },
     {
-      "type": "net.miginfocom.swing.MigLayout"
+      "type": "kotlinx.coroutines.scheduling.CoroutineScheduler"
+    },
+    {
+      "type": "kotlinx.coroutines.scheduling.CoroutineScheduler$Worker"
+    },
+    {
+      "type": "kotlinx.coroutines.scheduling.WorkQueue"
+    },
+    {
+      "type": "kotlinx.coroutines.swing.SwingDispatcherFactory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "kotlinx.coroutines.sync.MutexImpl"
+    },
+    {
+      "type": "kotlinx.coroutines.sync.SemaphoreAndMutexImpl"
+    },
+    {
+      "type": "kotlinx.serialization.Serializable"
     },
     {
       "type": "org.apache.commons.logging.LogFactory"
@@ -1251,13 +1108,755 @@
       "type": "org.aspectj.weaver.Advice"
     },
     {
-      "type": "org.crac.Core"
-    },
-    {
       "type": "org.eclipse.core.runtime.FileLocator"
     },
     {
       "type": "org.jboss.logging.Logger"
+    },
+    {
+      "type": "org.jetbrains.skia.AnimationFrameInfo",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int",
+            "boolean",
+            "int",
+            "boolean",
+            "int",
+            "int",
+            "org.jetbrains.skia.IRect"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.Color4f",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.Drawable",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "_onDraw",
+          "parameterTypes": [
+            "long"
+          ]
+        },
+        {
+          "name": "onGetBounds",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.FontFamilyName",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.FontFeature",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "_tag"
+        },
+        {
+          "name": "end"
+        },
+        {
+          "name": "start"
+        },
+        {
+          "name": "value"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.FontMetrics",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "java.lang.Float",
+            "java.lang.Float",
+            "java.lang.Float",
+            "java.lang.Float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.FontVariation",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "_tag"
+        },
+        {
+          "name": "value"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.FontVariationAxis",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "float",
+            "float",
+            "float",
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.IPoint",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.IRect",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        }
+      ],
+      "methods": [
+        {
+          "name": "makeLTRB",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.ImageInfo",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.PaintFilterCanvas",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "onFilter",
+          "parameterTypes": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.Path",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.PathSegment",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "boolean"
+          ]
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "boolean"
+          ]
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "boolean"
+          ]
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "boolean",
+            "boolean"
+          ]
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "float",
+            "float",
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.Point",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.RRect",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "radii"
+        }
+      ],
+      "methods": [
+        {
+          "name": "makeComplexLTRB",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float[]"
+          ]
+        },
+        {
+          "name": "makeLTRB",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        },
+        {
+          "name": "makeLTRB",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        },
+        {
+          "name": "makeLTRB",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        },
+        {
+          "name": "makeNinePatchLTRB",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.RSXform",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.Rect",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        }
+      ],
+      "methods": [
+        {
+          "name": "makeLTRB",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.impl.Native",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "_ptr"
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.paragraph.DecorationStyle",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "boolean",
+            "boolean",
+            "boolean",
+            "boolean",
+            "int",
+            "int",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.paragraph.LineMetrics",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "boolean",
+            "double",
+            "double",
+            "double",
+            "double",
+            "double",
+            "double",
+            "double",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.paragraph.LineMetrics[]"
+    },
+    {
+      "type": "org.jetbrains.skia.paragraph.Shadow",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "float",
+            "float",
+            "double"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.paragraph.TextBox",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.BidiRun",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "end"
+        },
+        {
+          "name": "level"
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.FontMgrRunIterator",
+      "jniAccessible": true
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.FontRun",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "end"
+        }
+      ],
+      "methods": [
+        {
+          "name": "_getFontPtr",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.HbIcuScriptRunIterator",
+      "jniAccessible": true
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.IcuBidiRunIterator",
+      "jniAccessible": true
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.LanguageRun",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "end"
+        },
+        {
+          "name": "language"
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.RunHandler",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "beginLine",
+          "parameterTypes": []
+        },
+        {
+          "name": "commitLine",
+          "parameterTypes": []
+        },
+        {
+          "name": "commitRun",
+          "parameterTypes": [
+            "org.jetbrains.skia.shaper.RunInfo",
+            "short[]",
+            "org.jetbrains.skia.Point[]",
+            "int[]"
+          ]
+        },
+        {
+          "name": "commitRunInfo",
+          "parameterTypes": []
+        },
+        {
+          "name": "runInfo",
+          "parameterTypes": [
+            "org.jetbrains.skia.shaper.RunInfo"
+          ]
+        },
+        {
+          "name": "runOffset",
+          "parameterTypes": [
+            "org.jetbrains.skia.shaper.RunInfo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.RunInfo",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "_fontPtr"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "int",
+            "float",
+            "float",
+            "int",
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.ScriptRun",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "end"
+        },
+        {
+          "name": "scriptTag"
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.ShapingOptions",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "features"
+        },
+        {
+          "name": "fontMgr"
+        },
+        {
+          "name": "isApproximatePunctuation"
+        },
+        {
+          "name": "isApproximateSpaces"
+        },
+        {
+          "name": "isLeftToRight"
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.shaper.TextBlobBuilderRunHandler",
+      "jniAccessible": true
+    },
+    {
+      "type": "org.jetbrains.skia.skottie.LogLevel",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "ERROR"
+        },
+        {
+          "name": "WARNING"
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.skottie.Logger",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "log",
+          "parameterTypes": [
+            "org.jetbrains.skia.skottie.LogLevel",
+            "java.lang.String",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.svg.SVGLength",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skia.svg.SVGPreserveAspectRatio",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jetbrains.skiko.HardwareLayer"
+    },
+    {
+      "type": "org.jetbrains.skiko.SkiaLayer"
+    },
+    {
+      "type": "org.jetbrains.skiko.SkiaLayer$1"
+    },
+    {
+      "type": "org.jetbrains.skiko.redrawer.Direct3DRedrawer",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "isAdapterSupported",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
     },
     {
       "type": "org.osgi.framework.FrameworkUtil"
@@ -1316,9 +1915,6 @@
       ]
     },
     {
-      "type": "org.springframework.aot.generate.Generated"
-    },
-    {
       "type": "org.springframework.beans.factory.Aware"
     },
     {
@@ -1338,9 +1934,6 @@
     },
     {
       "type": "org.springframework.beans.factory.InitializingBean"
-    },
-    {
-      "type": "org.springframework.beans.factory.annotation.Autowired"
     },
     {
       "type": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor",
@@ -1383,12 +1976,6 @@
           "parameterTypes": []
         }
       ]
-    },
-    {
-      "type": "org.springframework.boot.CommandLineRunner"
-    },
-    {
-      "type": "org.springframework.boot.Runner"
     },
     {
       "type": "org.springframework.boot.SpringBootConfiguration"
@@ -1693,24 +2280,6 @@
     },
     {
       "type": "org.springframework.boot.autoconfigure.preinitialize.BackgroundPreinitializingApplicationListener",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "org.springframework.boot.autoconfigure.preinitialize.CharsetsBackgroundPreinitializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "org.springframework.boot.autoconfigure.preinitialize.ConversionServiceBackgroundPreinitializer",
       "methods": [
         {
           "name": "<init>",
@@ -2184,21 +2753,6 @@
       ]
     },
     {
-      "type": "org.springframework.boot.loader.launch.JarLauncher",
-      "jniAccessible": true,
-      "methods": [
-        {
-          "name": "main",
-          "parameterTypes": [
-            "java.lang.String[]"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "org.springframework.boot.loader.launch.LaunchedClassLoader"
-    },
-    {
       "type": "org.springframework.boot.logging.java.JavaLoggingSystem$Factory",
       "methods": [
         {
@@ -2645,44 +3199,6 @@
       "jniAccessible": true
     },
     {
-      "type": "sun.awt.image.BufImgSurfaceData$ICMColorData",
-      "jniAccessible": true,
-      "fields": [
-        {
-          "name": "pData"
-        }
-      ],
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "long"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "sun.awt.image.IntegerComponentRaster",
-      "jniAccessible": true,
-      "fields": [
-        {
-          "name": "data"
-        },
-        {
-          "name": "dataOffsets"
-        },
-        {
-          "name": "pixelStride"
-        },
-        {
-          "name": "scanlineStride"
-        },
-        {
-          "name": "type"
-        }
-      ]
-    },
-    {
       "type": "sun.awt.image.SunVolatileImage",
       "jniAccessible": true,
       "fields": [
@@ -2699,6 +3215,9 @@
           "name": "sdCurrent"
         }
       ]
+    },
+    {
+      "type": "sun.awt.windows.WCanvasPeer"
     },
     {
       "type": "sun.awt.windows.WComponentPeer",
@@ -2998,26 +3517,6 @@
       ]
     },
     {
-      "type": "sun.font.FontUtilities",
-      "jniAccessible": true,
-      "methods": [
-        {
-          "name": "debugFonts",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "sun.font.FreetypeFontScaler",
-      "jniAccessible": true,
-      "methods": [
-        {
-          "name": "invalidateScaler",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "sun.font.GlyphList",
       "jniAccessible": true,
       "fields": [
@@ -3232,6 +3731,9 @@
           "parameterTypes": []
         }
       ]
+    },
+    {
+      "type": "sun.java2d.d3d.D3DSurfaceData$D3DWindowSurfaceData"
     },
     {
       "type": "sun.java2d.loops.Blit",
@@ -3537,69 +4039,6 @@
       ]
     },
     {
-      "type": "sun.java2d.loops.SetDrawLineANY",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "sun.java2d.loops.SetDrawPathANY",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "sun.java2d.loops.SetDrawPolygonsANY",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "sun.java2d.loops.SetDrawRectANY",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "sun.java2d.loops.SetFillPathANY",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "sun.java2d.loops.SetFillRectANY",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "sun.java2d.loops.SetFillSpansANY",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "sun.java2d.loops.SurfaceType",
       "jniAccessible": true,
       "fields": [
@@ -3789,24 +4228,6 @@
       ]
     },
     {
-      "type": "sun.launcher.LauncherHelper",
-      "jniAccessible": true,
-      "fields": [
-        {
-          "name": "isStaticMain"
-        },
-        {
-          "name": "noArgMain"
-        }
-      ],
-      "methods": [
-        {
-          "name": "getApplicationClass",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "sun.management.VMManagementImpl",
       "jniAccessible": true,
       "fields": [
@@ -3837,19 +4258,6 @@
       ]
     },
     {
-      "type": "sun.reflect.misc.Trampoline",
-      "methods": [
-        {
-          "name": "invoke",
-          "parameterTypes": [
-            "java.lang.reflect.Method",
-            "java.lang.Object",
-            "java.lang.Object[]"
-          ]
-        }
-      ]
-    },
-    {
       "type": "sun.text.resources.cldr.FormatData"
     },
     {
@@ -3857,24 +4265,6 @@
     },
     {
       "type": "sun.text.resources.cldr.FormatData_en_US"
-    },
-    {
-      "type": {
-        "proxy": [
-          "java.lang.reflect.ParameterizedType",
-          "org.springframework.core.SerializableTypeWrapper$SerializableTypeProxy",
-          "java.io.Serializable"
-        ]
-      }
-    },
-    {
-      "type": {
-        "proxy": [
-          "java.lang.reflect.WildcardType",
-          "org.springframework.core.SerializableTypeWrapper$SerializableTypeProxy",
-          "java.io.Serializable"
-        ]
-      }
     },
     {
       "type": {
@@ -3922,19 +4312,13 @@
       "glob": "META-INF/services/ch.qos.logback.classic.spi.Configurator"
     },
     {
-      "glob": "META-INF/services/com.formdev.flatlaf.FlatDefaultsAddon"
-    },
-    {
       "glob": "META-INF/services/java.awt.im.spi.InputMethodDescriptor"
-    },
-    {
-      "glob": "META-INF/services/java.net.spi.URLStreamHandlerProvider"
     },
     {
       "glob": "META-INF/services/java.time.zone.ZoneRulesProvider"
     },
     {
-      "glob": "META-INF/services/java.util.spi.ResourceBundleControlProvider"
+      "glob": "META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory"
     },
     {
       "glob": "META-INF/services/org.apache.commons.logging.LogFactory"
@@ -3985,22 +4369,7 @@
       "glob": "application.yml"
     },
     {
-      "glob": "com/formdev/flatlaf/FlatLaf.properties"
-    },
-    {
-      "glob": "com/formdev/flatlaf/FlatLightLaf.properties"
-    },
-    {
-      "glob": "com/formdev/flatlaf/natives/flatlaf-windows-x86_64.dll"
-    },
-    {
-      "glob": "com/formdev/flatlaf/resources/Bundle.properties"
-    },
-    {
-      "glob": "com/formdev/flatlaf/resources/Bundle_en.properties"
-    },
-    {
-      "glob": "com/formdev/flatlaf/resources/Bundle_en_US.properties"
+      "glob": "banner.txt"
     },
     {
       "glob": "com/kgonia/imagez"
@@ -4198,11 +4567,10 @@
       "glob": "org/springframework/context/annotation/ImportBeanDefinitionRegistrar.class"
     },
     {
-      "glob": "spring.properties"
+      "glob": "skiko-windows-x64.dll.sha256"
     },
     {
-      "module": "java.desktop",
-      "glob": "com/formdev/flatlaf/resources/Bundle.properties"
+      "glob": "spring.properties"
     },
     {
       "module": "java.desktop",
@@ -4214,7 +4582,11 @@
     },
     {
       "module": "java.desktop",
-      "glob": "javax/swing/text/html/default.css"
+      "glob": "com/sun/swing/internal/plaf/metal/resources/metal_en.properties"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "com/sun/swing/internal/plaf/metal/resources/metal_en_US.properties"
     },
     {
       "module": "java.desktop",
@@ -4225,10 +4597,10 @@
       "glob": "sun/awt/resources/awt_en_US.properties"
     },
     {
-      "bundle": "com.formdev.flatlaf.resources.Bundle"
+      "bundle": "com.sun.swing.internal.plaf.basic.resources.basic"
     },
     {
-      "bundle": "com.sun.swing.internal.plaf.basic.resources.basic"
+      "bundle": "com.sun.swing.internal.plaf.metal.resources.metal"
     },
     {
       "bundle": "sun.awt.resources.awt"

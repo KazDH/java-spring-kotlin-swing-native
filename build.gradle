@@ -1,5 +1,9 @@
 plugins {
     id 'java'
+    id 'application'
+    id 'org.jetbrains.kotlin.jvm' version '2.2.21'
+    id 'org.jetbrains.compose' version '1.9.0'
+    id 'org.jetbrains.kotlin.plugin.compose' version '2.2.21'
     id 'org.springframework.boot' version '4.0.0'
     id 'io.spring.dependency-management' version '1.1.7'
     id 'org.graalvm.buildtools.native' version '0.11.3'
@@ -13,19 +17,97 @@ java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(25)
     }
+    // Set the bytecode target to Java 24 for compatibility
+    sourceCompatibility = JavaVersion.VERSION_24
+    targetCompatibility = JavaVersion.VERSION_24
+}
+
+graalvmNative {
+    agent {
+        enabled = true
+    }
+    binaries {
+        main {
+            useFatJar = true
+            javaLauncher = javaToolchains.launcherFor {
+                languageVersion = JavaLanguageVersion.of(25)
+                vendor = JvmVendorSpec.GRAAL_VM
+            }
+        }
+    }
+}
+
+kotlin {
+    // Use Java 25 toolchain for compilation
+    jvmToolchain(25)
+}
+
+// Configure Kotlin compiler to target Java 24 bytecode
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_24
+        freeCompilerArgs.add("-Xjdk-release=24")
+    }
+}
+
+// Configure Java compiler to target Java 24 bytecode
+tasks.withType(JavaCompile).configureEach {
+    options.release = 24
+}
+
+// Configure the JAR task to create an executable JAR
+tasks.named('jar') {
+    enabled = true
+    manifest {
+        attributes(
+            'Main-Class': 'com.kgonia.imagez.ImagezApplication'
+        )
+    }
 }
 
 repositories {
     mavenCentral()
+    google()
+    maven { url 'https://maven.pkg.jetbrains.space/public/p/compose/dev' }
 }
 
 dependencies {
+    // Spring Boot for Java business logic
     implementation 'org.springframework.boot:spring-boot-starter'
-    implementation("org.springframework.boot.aot:org.springframework.boot.aot.gradle.plugin:4.0.0")
-    implementation("com.formdev:flatlaf:3.6.2")
+
+    // Kotlin standard library
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib'
+
+    // Kotlin Compose UI - Desktop version includes all necessary runtime dependencies
+    implementation 'org.jetbrains.compose.desktop:desktop-jvm:1.9.0'
+    implementation 'org.jetbrains.compose.foundation:foundation-desktop:1.9.0'
+    implementation 'org.jetbrains.compose.material3:material3-desktop:1.9.0'
+    implementation 'org.jetbrains.compose.ui:ui-desktop:1.9.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.10.1'
+
+    // Explicitly add Skiko runtime for Windows
+    runtimeOnly "org.jetbrains.skiko:skiko-awt-runtime-windows-x64:0.9.22.2"
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// Ensure Kotlin compiles before Java so Java can reference Kotlin classes
+tasks.named('compileJava') {
+    dependsOn 'compileKotlin'
+}
+
+tasks.named('bootRun') {
+    dependsOn 'compileKotlin'
+}
+
+// Create a custom run task that doesn't use Spring Boot packaging
+task runApp(type: JavaExec) {
+    dependsOn classes
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.kgonia.imagez.ImagezApplication'
+    // Ensure AWT headless mode is disabled for Compose Desktop
+    systemProperty 'java.awt.headless', 'false'
 }
 
 tasks.named('test') {
@@ -39,5 +121,10 @@ graalvmNative {
             buildArgs.add('--no-fallback')
         }
     }
+}
+
+// Configure main class for application plugin
+application {
+    mainClass = 'com.kgonia.imagez.ImagezApplication'
 }
 
