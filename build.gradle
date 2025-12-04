@@ -119,6 +119,13 @@ graalvmNative {
         main {
             buildArgs.add('--verbose')
             buildArgs.add('--no-fallback')
+            buildArgs.add('--enable-native-access=ALL-UNNAMED')
+            buildArgs.add('--add-exports=java.desktop/sun.awt=ALL-UNNAMED')
+            buildArgs.add('--add-exports=java.desktop/sun.java2d=ALL-UNNAMED')
+            buildArgs.add('--add-opens=java.desktop/sun.awt=ALL-UNNAMED')
+            buildArgs.add('--add-opens=java.desktop/java.awt=ALL-UNNAMED')
+            buildArgs.add('-H:+UnlockExperimentalVMOptions')
+            buildArgs.add('-H:+ReportExceptionStackTraces')
         }
     }
 }
